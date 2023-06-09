@@ -87,7 +87,10 @@ form button:hover {
   color: white;
   border-style: none;
 }
-
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
